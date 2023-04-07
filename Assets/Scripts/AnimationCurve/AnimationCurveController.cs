@@ -10,6 +10,7 @@ public class AnimationCurveController : MonoBehaviour
     public Vector3 endPoint;
     public float currentTime;
     public AnimationCurve curve;
+    public GameObject Player;
 
     void Start()
     {
@@ -23,4 +24,22 @@ public class AnimationCurveController : MonoBehaviour
         currentTime += Time.deltaTime * speed;
         transform.position = Vector3.LerpUnclamped(startPoint, endPoint, curve.Evaluate(currentTime));
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject == Player)
+        {
+            Player.transform.parent = transform;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if(other.gameObject == Player)
+        {
+            Player.transform.parent = null;
+        }
+    }
+
+
 }
