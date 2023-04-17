@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PickUpController : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class PickUpController : MonoBehaviour
     [SerializeField] Transform holdArea;
     private GameObject heldObj;
     private Rigidbody heldObjRB;
+    private float throwAmount = 50.0f;
 
 
     [Header("Physics Parameters")]
@@ -17,6 +19,14 @@ public class PickUpController : MonoBehaviour
 
     [Header("Keybinds")]
     public KeyCode resetKey = KeyCode.R;
+
+    [Header("Fixes")]
+    private float startScale;
+
+    private void Start()
+    {
+        startScale = transform.localScale.y;
+    }
 
     private void Update()
     {
@@ -38,6 +48,10 @@ public class PickUpController : MonoBehaviour
         if(heldObj != null)
         {
             MoveObject();
+            if (Input.GetMouseButtonDown(1))
+            {
+                ThrowObject();
+            }
         }
 
         if (Input.GetKeyDown(resetKey))
@@ -79,5 +93,18 @@ public class PickUpController : MonoBehaviour
 
             heldObj.transform.parent = null;
             heldObj = null;
+    }
+
+    void ThrowObject()
+    {
+        heldObjRB.useGravity = true;
+        heldObjRB.drag = 1;
+        heldObjRB.constraints = RigidbodyConstraints.None;
+        heldObj.transform.parent = null;
+
+        Vector3 throwDirection = (holdArea.forward);
+        heldObjRB.velocity = (throwDirection * throwAmount);
+
+        heldObj = null;
     }
 }
