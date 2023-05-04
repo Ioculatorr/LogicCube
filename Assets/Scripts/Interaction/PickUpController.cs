@@ -10,7 +10,7 @@ public class PickUpController : MonoBehaviour
     [SerializeField] Transform holdArea;
     private GameObject heldObj;
     private Rigidbody heldObjRB;
-    private float throwAmount = 50.0f;
+    private float throwAmount = 20.0f;
 
 
     [Header("Physics Parameters")]
