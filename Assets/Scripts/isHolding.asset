@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: ScoreObject
-  m_EditorClassIdentifier: Assembly-CSharp::Coin
-  scoreValue: 0
+  m_Script: {fileID: 11500000, guid: f39d5f6c676861d47875080151a70ddb, type: 3}
+  m_Name: isHolding
+  m_EditorClassIdentifier: 
+  value: 0
