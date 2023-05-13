@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 
 public class PickUpController : MonoBehaviour
 {
-    public GameObject Cube1;
+    //public GameObject Cube1;
 
     [Header("Pickup Settings")]
     [SerializeField] Transform holdArea;
@@ -39,7 +39,6 @@ public class PickUpController : MonoBehaviour
                 RaycastHit hit;
                 if(Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, pickupRange))
                 {
-                    Cube1.transform.parent = null;
                     PickupObject(hit.transform.gameObject);
                     isSmthHeld = true;
                     Debug.Log("Trzymam");

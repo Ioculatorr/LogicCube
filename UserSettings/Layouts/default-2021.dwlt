@@ -14,25 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 0
     y: 43
     width: 1920
-    height: 989
-  m_ShowMode: 4
-  m_Title: Hierarchy
-=======
-    x: 8
-    y: 51
-    width: 1904
-    height: 981
+    height: 997
   m_ShowMode: 4
   m_Title: Game
->>>>>>> olaFresh
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 0
+  m_Maximized: 1
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -52,21 +43,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-<<<<<<< HEAD
     width: 1920
-    height: 939
+    height: 947
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 24
-=======
-    width: 1904
-    height: 931
-  m_MinSize: {x: 300, y: 200}
-  m_MaxSize: {x: 24288, y: 16192}
-  vertical: 0
-  controlID: 54
->>>>>>> olaFresh
+  controlID: 73
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -82,21 +64,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 1552
+    x: 1466
     y: 0
-    width: 368
-    height: 939
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-=======
-    x: 1454
-    y: 0
-    width: 450
-    height: 931
+    width: 454
+    height: 947
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
->>>>>>> olaFresh
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -119,17 +92,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 214
-    height: 681
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-=======
-    width: 360
-    height: 552
+    width: 362
+    height: 561
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
->>>>>>> olaFresh
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -151,15 +117,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-    y: 681
-    width: 1552
-    height: 258
-=======
-    y: 552
-    width: 1454
-    height: 379
->>>>>>> olaFresh
+    y: 561
+    width: 1466
+    height: 386
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 12}
@@ -188,13 +148,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 1920
-    height: 989
-=======
-    width: 1904
-    height: 981
->>>>>>> olaFresh
+    height: 997
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -218,11 +173,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 1920
-=======
-    width: 1904
->>>>>>> olaFresh
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -243,13 +194,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-    y: 969
+    y: 977
     width: 1920
-=======
-    y: 961
-    width: 1904
->>>>>>> olaFresh
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -272,21 +218,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 1552
-    height: 939
+    width: 1466
+    height: 947
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 25
-=======
-    width: 1454
-    height: 931
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: 44
->>>>>>> olaFresh
+  controlID: 74
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -306,21 +243,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 1552
-    height: 681
+    width: 1466
+    height: 561
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 26
-=======
-    width: 1454
-    height: 552
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-  controlID: 45
->>>>>>> olaFresh
+  controlID: 75
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -336,17 +264,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 214
+    x: 362
     y: 0
-    width: 1338
-    height: 681
-=======
-    x: 360
-    y: 0
-    width: 1094
-    height: 552
->>>>>>> olaFresh
+    width: 1104
+    height: 561
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
@@ -376,17 +297,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 0
-    y: 754
-    width: 1551
-    height: 237
-=======
-    x: 8
-    y: 633
-    width: 1453
-    height: 358
->>>>>>> olaFresh
+    y: 634
+    width: 1465
+    height: 365
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -404,33 +318,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Level
+    - Assets/Models
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Level
+  - Assets/Models
   m_LastFoldersGridSize: -1
-<<<<<<< HEAD
-  m_LastProjectPath: C:\Unity projekt\LogicCube
-  m_LockTracker:
-    m_IsLocked: 0
-  m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a06f0000
-    m_LastClickedID: 28576
-    m_ExpandedIDs: 00000000a06f000000ca9a3bffffff7f
-=======
   m_LastProjectPath: D:\moje_bagno\unity_projects\LogicCube
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: c67c0000
-    m_LastClickedID: 31942
-    m_ExpandedIDs: 000000006e700000947c000000ca9a3bffffff7f
->>>>>>> olaFresh
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 96700000
+    m_LastClickedID: 28822
+    m_ExpandedIDs: 000000008e7000009670000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -458,11 +361,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< HEAD
-    m_ExpandedIDs: 00000000a06f0000
-=======
-    m_ExpandedIDs: 000000006e700000
->>>>>>> olaFresh
+    m_ExpandedIDs: 000000008e700000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -489,11 +388,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-<<<<<<< HEAD
-    m_HadKeyboardFocusLastEvent: 0
-=======
     m_HadKeyboardFocusLastEvent: 1
->>>>>>> olaFresh
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -510,7 +405,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -543,17 +438,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 1552
+    x: 1466
     y: 73
-    width: 367
-    height: 918
-=======
-    x: 1462
-    y: 81
-    width: 449
-    height: 910
->>>>>>> olaFresh
+    width: 453
+    height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -592,34 +480,20 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 0
     y: 73
-    width: 213
-    height: 660
-=======
-    x: 8
-    y: 81
-    width: 359
-    height: 531
->>>>>>> olaFresh
+    width: 361
+    height: 540
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-<<<<<<< HEAD
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ea6b0000
-      m_LastClickedID: 27626
-      m_ExpandedIDs: 0afbffff566c0000566d00007a6e0000
-=======
-      scrollPos: {x: 0, y: 64}
-      m_SelectedIDs: fa6c0000
-      m_LastClickedID: 27898
-      m_ExpandedIDs: 08fbffffde6c0000
->>>>>>> olaFresh
+      scrollPos: {x: 0, y: 32}
+      m_SelectedIDs: bcf2ffff
+      m_LastClickedID: -3396
+      m_ExpandedIDs: c0f2ffff06fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -664,17 +538,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 214
+    x: 362
     y: 73
-    width: 1336
-    height: 660
-=======
-    x: 368
-    y: 81
-    width: 1092
-    height: 531
->>>>>>> olaFresh
+    width: 1102
+    height: 540
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -876,15 +743,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< HEAD
-    m_Target: {x: 1.5328839, y: 6.718823, z: -55.764412}
+    m_Target: {x: 13.94253, y: 6.0388227, z: 4.067484}
     speed: 2
-    m_Value: {x: 1.5328839, y: 6.718823, z: -55.764412}
-=======
-    m_Target: {x: 10.465149, y: 4.0625362, z: -2.8268154}
-    speed: 2
-    m_Value: {x: 10.465149, y: 4.0625362, z: -2.8268154}
->>>>>>> olaFresh
+    m_Value: {x: 13.94253, y: 6.0388227, z: 4.067484}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -918,11 +779,7 @@ MonoBehaviour:
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-      m_Size: {x: 0.50001, y: 0.50001}
-=======
       m_Size: {x: 0.1, y: 0.1}
->>>>>>> olaFresh
     zGrid:
       m_Fade:
         m_Target: 0
@@ -935,35 +792,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-<<<<<<< HEAD
-    m_Target: {x: -0.13651618, y: -0.49239764, z: 0.07909801, w: -0.85619867}
+    m_Target: {x: -0.25834855, y: -0.35927075, z: 0.10422277, w: -0.89070076}
     speed: 2
-    m_Value: {x: -0.1364872, y: -0.49229312, z: 0.07908122, w: -0.85601693}
+    m_Value: {x: -0.25834474, y: -0.35926545, z: 0.104221225, w: -0.8906876}
   m_Size:
-    m_Target: 9.040301
+    m_Target: 1.7417102
     speed: 2
-    m_Value: 9.040301
-=======
-    m_Target: {x: -0.16788785, y: -0.36518002, z: 0.06713626, w: -0.91322654}
-    speed: 2
-    m_Value: {x: -0.16788511, y: -0.36517406, z: 0.06713516, w: -0.91321164}
-  m_Size:
-    m_Target: 0.41452304
-    speed: 2
-    m_Value: 0.41452304
->>>>>>> olaFresh
+    m_Value: 1.7417102
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-<<<<<<< HEAD
-    m_Speed: 0.76062
-    m_SpeedNormalized: 0.38
-=======
-    m_Speed: 1
-    m_SpeedNormalized: 0.5
->>>>>>> olaFresh
+    m_Speed: 1.0005
+    m_SpeedNormalized: 0.49999997
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -1002,17 +844,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 214
+    x: 362
     y: 73
-    width: 1336
-    height: 660
-=======
-    x: 368
-    y: 81
-    width: 1092
-    height: 531
->>>>>>> olaFresh
+    width: 1102
+    height: 540
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1023,11 +858,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-<<<<<<< HEAD
-  m_TargetSize: {x: 1336, y: 639}
-=======
-  m_TargetSize: {x: 1092, y: 510}
->>>>>>> olaFresh
+  m_TargetSize: {x: 1102, y: 519}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1042,17 +873,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-<<<<<<< HEAD
-    m_HBaseRangeMin: -668
-    m_HBaseRangeMax: 668
-    m_VBaseRangeMin: -319.5
-    m_VBaseRangeMax: 319.5
-=======
-    m_HBaseRangeMin: -546
-    m_HBaseRangeMax: 546
-    m_VBaseRangeMin: -255
-    m_VBaseRangeMax: 255
->>>>>>> olaFresh
+    m_HBaseRangeMin: -551
+    m_HBaseRangeMax: 551
+    m_VBaseRangeMin: -259.5
+    m_VBaseRangeMax: 259.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1070,40 +894,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-<<<<<<< HEAD
-      width: 1336
-      height: 639
+      width: 1102
+      height: 519
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 668, y: 319.5}
-=======
-      width: 1092
-      height: 510
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 546, y: 255}
->>>>>>> olaFresh
+    m_Translation: {x: 551, y: 259.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-<<<<<<< HEAD
-      x: -668
-      y: -319.5
-      width: 1336
-      height: 639
+      x: -551
+      y: -259.5
+      width: 1102
+      height: 519
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1336, y: 660}
-=======
-      x: -546
-      y: -255
-      width: 1092
-      height: 510
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1092, y: 531}
->>>>>>> olaFresh
+  m_LastWindowPixelSize: {x: 1102, y: 540}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1130,17 +937,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 0
-    y: 754
-    width: 1551
-    height: 237
-=======
-    x: 8
-    y: 633
-    width: 1453
-    height: 358
->>>>>>> olaFresh
+    x: 2249
+    y: 726.5
+    width: 920
+    height: 250
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default

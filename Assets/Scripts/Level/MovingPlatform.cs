@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class MovingPlatform : MonoBehaviour
 {
-    public PickUpController isSmthHeld;
+    //public PickUpController isSmthHeld;
 
-    public GameObject Cube1;
-    public GameObject Player;
+    //public GameObject Cube1;
+    //public GameObject Player;
 
     [SerializeField]
     private WaypointPath _waypointPath;
