@@ -5,11 +5,13 @@ using UnityEngine.EventSystems;
 
 public class PickUpController : MonoBehaviour
 {
+    //public GameObject Cube1;
 
     [Header("Pickup Settings")]
     [SerializeField] Transform holdArea;
-    private GameObject heldObj;
-    private Rigidbody heldObjRB;
+    public GameObject heldObj;
+    public bool isSmthHeld = true;
+    public Rigidbody heldObjRB;
     private float throwAmount = 20.0f;
 
 
@@ -38,11 +40,16 @@ public class PickUpController : MonoBehaviour
                 if(Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, pickupRange))
                 {
                     PickupObject(hit.transform.gameObject);
+                    isSmthHeld = true;
+                    Debug.Log("Trzymam");
+                    
                 }
             }
             else
             {
                 DropObject();
+                isSmthHeld = false;
+                Debug.Log("Puszczam");
             }
         }
         if(heldObj != null)
@@ -51,6 +58,8 @@ public class PickUpController : MonoBehaviour
             if (Input.GetMouseButtonDown(1))
             {
                 ThrowObject();
+                isSmthHeld = false;
+                Debug.Log("Puszczam");
             }
         }
 

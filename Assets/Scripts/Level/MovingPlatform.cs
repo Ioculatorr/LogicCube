@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class MovingPlatform : MonoBehaviour
 {
+    //public PickUpController isSmthHeld;
+
+    //public GameObject Cube1;
+    //public GameObject Player;
+
     [SerializeField]
     private WaypointPath _waypointPath;
 
@@ -28,6 +33,7 @@ public class MovingPlatform : MonoBehaviour
         _elapsedTime += Time.deltaTime;
 
         float elapsedPercentage = _elapsedTime / _timeToWaypoint;
+        elapsedPercentage = Mathf.SmoothStep(0, 1, elapsedPercentage);
         transform.position = Vector3.Lerp(_previousWaypoint.position, _targetWaypoint.position, elapsedPercentage);
 
         if (elapsedPercentage >= 1)
@@ -48,13 +54,24 @@ public class MovingPlatform : MonoBehaviour
         _timeToWaypoint = distanceToWaypoint / _speed;
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
+        //if (isSmthHeld == true)
+        //{
+        //    Cube1.transform.parent = transform;
+        //}
+
+        Debug.Log("I'm in B)");
         other.transform.SetParent(transform);
     }
 
     private void OnTriggerExit(Collider other)
     {
+        //if (isSmthHeld == false)
+        //{
+        //    Cube1.transform.parent = null;
+        //}
+        Debug.Log("I'm out :P");
         other.transform.SetParent(null);
     }
 }

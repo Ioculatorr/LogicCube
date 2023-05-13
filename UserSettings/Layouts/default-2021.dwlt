@@ -16,15 +16,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 43
-<<<<<<< HEAD
     width: 1920
-    height: 989
-=======
-    width: 2560
-    height: 1357
->>>>>>> develop
+    height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,12 +43,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-<<<<<<< HEAD
     width: 1920
-    height: 939
+    height: 947
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
   controlID: 392
 =======
@@ -67,6 +62,9 @@ MonoBehaviour:
   controlID: 102
 >>>>>>> develop
 >>>>>>> olaFresh
+=======
+  controlID: 73
+>>>>>>> develop
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -83,6 +81,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1466
     y: 0
     width: 454
@@ -92,15 +91,12 @@ MonoBehaviour:
 =======
 <<<<<<< HEAD
     x: 1631
-    y: 0
-    width: 289
-    height: 939
 =======
-    x: 1955
-    y: 0
-    width: 605
-    height: 1307
+    x: 1466
 >>>>>>> develop
+    y: 0
+    width: 454
+    height: 947
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
 >>>>>>> olaFresh
@@ -127,6 +123,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 363
     height: 561
   m_MinSize: {x: 201, y: 221}
@@ -144,6 +141,12 @@ MonoBehaviour:
   m_MaxSize: {x: 4001, y: 4021}
 >>>>>>> develop
 >>>>>>> olaFresh
+=======
+    width: 362
+    height: 561
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+>>>>>>> develop
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -159,12 +162,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     y: 561
     width: 1466
@@ -176,6 +180,11 @@ MonoBehaviour:
     y: 719
     width: 1631
     height: 220
+=======
+    y: 561
+    width: 1466
+    height: 386
+>>>>>>> develop
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
 >>>>>>> olaFresh
@@ -185,19 +194,6 @@ MonoBehaviour:
   - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 1
-=======
-    y: 774
-    width: 1955
-    height: 533
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 17}
-  m_Panes:
-  - {fileID: 12}
-  - {fileID: 17}
-  m_Selected: 1
-  m_LastSelected: 0
->>>>>>> develop
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -218,13 +214,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 1920
-    height: 989
-=======
-    width: 2560
-    height: 1357
->>>>>>> develop
+    height: 997
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -248,11 +239,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2560
+    width: 1920
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: Default
+  m_LastLoadedLayoutName: 
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -269,13 +260,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-    y: 969
+    y: 977
     width: 1920
-=======
-    y: 1337
-    width: 2560
->>>>>>> develop
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -298,6 +284,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     width: 1466
     height: 947
@@ -322,6 +309,14 @@ MonoBehaviour:
   controlID: 92
 >>>>>>> develop
 >>>>>>> olaFresh
+=======
+    width: 1466
+    height: 947
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 74
+>>>>>>> develop
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -341,6 +336,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     width: 1466
     height: 561
@@ -365,6 +361,14 @@ MonoBehaviour:
   controlID: 93
 >>>>>>> develop
 >>>>>>> olaFresh
+=======
+    width: 1466
+    height: 561
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 75
+>>>>>>> develop
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -375,15 +379,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD
   m_Name: SceneView
-=======
-  m_Name: 
->>>>>>> develop
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     x: 363
     y: 0
@@ -394,11 +395,15 @@ MonoBehaviour:
 =======
 <<<<<<< HEAD
     x: 225
+=======
+    x: 362
+>>>>>>> develop
     y: 0
-    width: 1406
-    height: 719
+    width: 1104
+    height: 561
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
+<<<<<<< HEAD
 =======
     x: 484
     y: 0
@@ -408,6 +413,8 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
 >>>>>>> develop
 >>>>>>> olaFresh
+=======
+>>>>>>> develop
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -437,6 +444,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 634
     width: 1465
     height: 365
@@ -451,6 +459,11 @@ MonoBehaviour:
     height: 512
 >>>>>>> develop
 >>>>>>> olaFresh
+=======
+    y: 634
+    width: 1465
+    height: 365
+>>>>>>> develop
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -468,29 +481,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Models
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Models
   m_LastFoldersGridSize: -1
-<<<<<<< HEAD
-  m_LastProjectPath: C:\Unity projekt\LogicCube
-  m_LockTracker:
-    m_IsLocked: 0
-  m_FolderTreeState:
-    scrollPos: {x: 0, y: 44}
-    m_SelectedIDs: 806f0000
-    m_LastClickedID: 28544
-    m_ExpandedIDs: 00000000c26d0000826f00008a6f000000ca9a3bffffff7f
-=======
-  m_LastProjectPath: C:\Users\admin\Desktop\Unityprojekty\LogicCube
+  m_LastProjectPath: D:\moje_bagno\unity_projects\LogicCube
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_SelectedIDs: a66e0000
     m_LastClickedID: 28326
@@ -501,6 +505,11 @@ MonoBehaviour:
     m_ExpandedIDs: 000000007871000000ca9a3bffffff7f
 >>>>>>> develop
 >>>>>>> olaFresh
+=======
+    m_SelectedIDs: 96700000
+    m_LastClickedID: 28822
+    m_ExpandedIDs: 000000008e7000009670000000ca9a3bffffff7f
+>>>>>>> develop
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -529,6 +538,7 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000a66e000000ca9a3bffffff7f
 =======
 <<<<<<< HEAD
@@ -537,6 +547,9 @@ MonoBehaviour:
     m_ExpandedIDs: 0000000078710000
 >>>>>>> develop
 >>>>>>> olaFresh
+=======
+    m_ExpandedIDs: 000000008e700000
+>>>>>>> develop
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -562,6 +575,7 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: a2780000
     m_LastClickedInstanceID: 30882
     m_HadKeyboardFocusLastEvent: 0
@@ -576,6 +590,11 @@ MonoBehaviour:
     m_HadKeyboardFocusLastEvent: 0
 >>>>>>> develop
 >>>>>>> olaFresh
+=======
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
+>>>>>>> develop
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -626,6 +645,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1466
     y: 73
     width: 453
@@ -643,6 +663,12 @@ MonoBehaviour:
     height: 1286
 >>>>>>> develop
 >>>>>>> olaFresh
+=======
+    x: 1466
+    y: 73
+    width: 453
+    height: 926
+>>>>>>> develop
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -684,6 +710,7 @@ MonoBehaviour:
     x: 0
     y: 73
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 362
     height: 540
 =======
@@ -695,12 +722,17 @@ MonoBehaviour:
     height: 753
 >>>>>>> develop
 >>>>>>> olaFresh
+=======
+    width: 361
+    height: 540
+>>>>>>> develop
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< HEAD
       scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
       m_SelectedIDs: a2780000
@@ -717,6 +749,12 @@ MonoBehaviour:
       m_ExpandedIDs: 06fbffff
 >>>>>>> develop
 >>>>>>> olaFresh
+=======
+      scrollPos: {x: 0, y: 32}
+      m_SelectedIDs: bcf2ffff
+      m_LastClickedID: -3396
+      m_ExpandedIDs: c0f2ffff06fbffff
+>>>>>>> develop
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -732,7 +770,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -762,6 +800,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 363
     y: 73
     width: 1101
@@ -779,6 +818,12 @@ MonoBehaviour:
     height: 753
 >>>>>>> develop
 >>>>>>> olaFresh
+=======
+    x: 362
+    y: 73
+    width: 1102
+    height: 540
+>>>>>>> develop
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -981,6 +1026,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -4.605482, y: 9.88565, z: -40.43313}
     speed: 2
     m_Value: {x: -4.605482, y: 9.88565, z: -40.43313}
@@ -995,6 +1041,11 @@ MonoBehaviour:
     m_Value: {x: 23.813679, y: 3.569017, z: 13.377074}
 >>>>>>> develop
 >>>>>>> olaFresh
+=======
+    m_Target: {x: 13.94253, y: 6.0388227, z: 4.067484}
+    speed: 2
+    m_Value: {x: 13.94253, y: 6.0388227, z: 4.067484}
+>>>>>>> develop
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1028,11 +1079,7 @@ MonoBehaviour:
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-      m_Size: {x: 0.50001, y: 0.50001}
-=======
-      m_Size: {x: 1, y: 1}
->>>>>>> develop
+      m_Size: {x: 0.1, y: 0.1}
     zGrid:
       m_Fade:
         m_Target: 0
@@ -1045,6 +1092,7 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_Target: {x: -0.0016738632, y: 0.9979106, z: -0.028756693, w: -0.058142398}
     speed: 2
@@ -1064,19 +1112,27 @@ MonoBehaviour:
     m_Value: 5.7694287
 =======
     m_Target: {x: 0.17232534, y: -0.27235273, z: 0.049646124, w: 0.9453366}
+=======
+    m_Target: {x: -0.25834855, y: -0.35927075, z: 0.10422277, w: -0.89070076}
+>>>>>>> develop
     speed: 2
-    m_Value: {x: 0.17232552, y: -0.272353, z: 0.049646176, w: 0.94533753}
+    m_Value: {x: -0.25834474, y: -0.35926545, z: 0.104221225, w: -0.8906876}
   m_Size:
-    m_Target: 10
+    m_Target: 1.7417102
     speed: 2
+<<<<<<< HEAD
     m_Value: 10
 >>>>>>> develop
 >>>>>>> olaFresh
+=======
+    m_Value: 1.7417102
+>>>>>>> develop
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_Speed: 1
     m_SpeedNormalized: 0.5
@@ -1089,6 +1145,10 @@ MonoBehaviour:
     m_SpeedNormalized: 0.5
 >>>>>>> develop
 >>>>>>> olaFresh
+=======
+    m_Speed: 1.0005
+    m_SpeedNormalized: 0.49999997
+>>>>>>> develop
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -1128,6 +1188,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 363
     y: 73
     width: 1101
@@ -1145,6 +1206,12 @@ MonoBehaviour:
     height: 790
 >>>>>>> develop
 >>>>>>> olaFresh
+=======
+    x: 362
+    y: 73
+    width: 1102
+    height: 540
+>>>>>>> develop
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1156,6 +1223,7 @@ MonoBehaviour:
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_TargetSize: {x: 1101, y: 519}
 =======
 <<<<<<< HEAD
@@ -1164,9 +1232,12 @@ MonoBehaviour:
   m_TargetSize: {x: 1532, y: 769}
 >>>>>>> develop
 >>>>>>> olaFresh
+=======
+  m_TargetSize: {x: 1102, y: 519}
+>>>>>>> develop
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
-  m_RenderIMGUI: 0
+  m_RenderIMGUI: 1
   m_EnterPlayModeBehavior: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
@@ -1178,6 +1249,7 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_HBaseRangeMin: -550.5
     m_HBaseRangeMax: 550.5
@@ -1196,6 +1268,12 @@ MonoBehaviour:
     m_VBaseRangeMax: 384.5
 >>>>>>> develop
 >>>>>>> olaFresh
+=======
+    m_HBaseRangeMin: -551
+    m_HBaseRangeMax: 551
+    m_VBaseRangeMin: -259.5
+    m_VBaseRangeMax: 259.5
+>>>>>>> develop
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1204,7 +1282,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1213,6 +1291,7 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
 <<<<<<< HEAD
       width: 1101
       height: 519
@@ -1231,12 +1310,19 @@ MonoBehaviour:
     m_Translation: {x: 766, y: 384.5}
 >>>>>>> develop
 >>>>>>> olaFresh
+=======
+      width: 1102
+      height: 519
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 551, y: 259.5}
+>>>>>>> develop
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
       x: -550.5
       y: -259.5
@@ -1264,6 +1350,15 @@ MonoBehaviour:
   m_LastWindowPixelSize: {x: 1532, y: 790}
 >>>>>>> develop
 >>>>>>> olaFresh
+=======
+      x: -551
+      y: -259.5
+      width: 1102
+      height: 519
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1102, y: 540}
+>>>>>>> develop
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1291,10 +1386,14 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> develop
     x: 2249
     y: 726.5
     width: 920
     height: 250
+<<<<<<< HEAD
 =======
     x: 0
 <<<<<<< HEAD
@@ -1307,6 +1406,8 @@ MonoBehaviour:
     height: 512
 >>>>>>> develop
 >>>>>>> olaFresh
+=======
+>>>>>>> develop
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
