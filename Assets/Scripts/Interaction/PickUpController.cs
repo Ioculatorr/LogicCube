@@ -22,13 +22,8 @@ public class PickUpController : MonoBehaviour
     [Header("Keybinds")]
     public KeyCode resetKey = KeyCode.R;
 
-    [Header("Fixes")]
-    private float startScale;
-
-    private void Start()
-    {
-        startScale = transform.localScale.y;
-    }
+    [Header("Player")]
+    [SerializeField] private GameObject Player;
 
     private void Update()
     {
@@ -41,15 +36,12 @@ public class PickUpController : MonoBehaviour
                 {
                     PickupObject(hit.transform.gameObject);
                     isSmthHeld = true;
-                    Debug.Log("Trzymam");
-                    
                 }
             }
             else
             {
                 DropObject();
                 isSmthHeld = false;
-                Debug.Log("Puszczam");
             }
         }
         if(heldObj != null)
@@ -59,7 +51,6 @@ public class PickUpController : MonoBehaviour
             {
                 ThrowObject();
                 isSmthHeld = false;
-                Debug.Log("Puszczam");
             }
         }
 
@@ -89,6 +80,7 @@ public class PickUpController : MonoBehaviour
             heldObjRB.drag = 10;
             heldObjRB.constraints = RigidbodyConstraints.FreezeRotation;
 
+            Physics.IgnoreCollision(heldObjRB.GetComponent<Collider>(), Player.GetComponent<Collider>(), true);
             heldObjRB.transform.parent = holdArea;
             heldObj = pickObj;
         }
@@ -100,6 +92,7 @@ public class PickUpController : MonoBehaviour
             heldObjRB.drag = 1;
             heldObjRB.constraints = RigidbodyConstraints.None;
 
+            Physics.IgnoreCollision(heldObjRB.GetComponent<Collider>(), Player.GetComponent<Collider>(), false);
             heldObj.transform.parent = null;
             heldObj = null;
     }
@@ -110,6 +103,7 @@ public class PickUpController : MonoBehaviour
         heldObjRB.drag = 1;
         heldObjRB.constraints = RigidbodyConstraints.None;
         heldObj.transform.parent = null;
+        Physics.IgnoreCollision(heldObjRB.GetComponent<Collider>(), Player.GetComponent<Collider>(), false);
 
         Vector3 throwDirection = (holdArea.forward);
         heldObjRB.velocity = (throwDirection * throwAmount);

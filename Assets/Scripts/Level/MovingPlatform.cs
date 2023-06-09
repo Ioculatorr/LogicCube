@@ -61,7 +61,6 @@ public class MovingPlatform : MonoBehaviour
         //    Cube1.transform.parent = transform;
         //}
 
-        Debug.Log("I'm in B)");
         other.transform.SetParent(transform);
     }
 
@@ -71,7 +70,6 @@ public class MovingPlatform : MonoBehaviour
         //{
         //    Cube1.transform.parent = null;
         //}
-        Debug.Log("I'm out :P");
         other.transform.SetParent(null);
     }
 }
