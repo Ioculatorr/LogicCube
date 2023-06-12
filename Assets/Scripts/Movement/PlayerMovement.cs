@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,40 +7,45 @@ public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement")]
     private float moveSpeed;
-    public float walkSpeed;
-    public float sprintSpeed;
+    [SerializeField] private float walkSpeed;
+    [SerializeField] private float sprintSpeed;
+    public JumpCounter JumpCount;
 
-    public float groundDrag;
+    [SerializeField] private float groundDrag;
 
 
     [Header("Jumping")]
-    public float jumpForce;
-    public float jumpCooldown;
-    public float airMultiplier;
+    [SerializeField] private float jumpForce;
+    [SerializeField] private float jumpCooldown;
+    [SerializeField] private float airMultiplier;
     bool readyToJump;
 
     [Header("Crouching")]
-    public float crouchSpeed;
-    public float crouchYScale;
+    [SerializeField] private float crouchSpeed;
+    [SerializeField] private float crouchYScale;
     private float startYScale;
 
     [Header("Keybinds")]
-    public KeyCode jumpKey = KeyCode.Space;
-    public KeyCode sprintKey = KeyCode.LeftShift;
-    public KeyCode crouchKey = KeyCode.LeftControl;
+    [SerializeField] private KeyCode jumpKey = KeyCode.Space;
+    [SerializeField] private KeyCode sprintKey = KeyCode.LeftShift;
+    [SerializeField] private KeyCode crouchKey = KeyCode.LeftControl;
 
 
     [Header("Ground Check")]
-    public float playerHeight;
+    [SerializeField] private float playerHeight;
     public LayerMask whatIsGround;
     bool grounded;
 
     [Header("Slope Handling")]
-    public float maxSlopeAngle;
+    [SerializeField] private float maxSlopeAngle;
     private RaycastHit slopeHit;
     private bool exitingSlope;
 
     public Transform orientation;
+
+    [Header("DOTween Camera Shake")]
+
+    [SerializeField] private Transform _camera;
 
     float horizontalInput;
     float verticalInput;
@@ -207,6 +213,8 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = new Vector3(rb.velocity.x, 1f, rb.velocity.z);
 
         rb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
+        JumpCount.jumpsAmount += 1;
+        _camera.DOShakeRotation(0.2f, 1f, 40);
     }
 
     private void ResetJump()
