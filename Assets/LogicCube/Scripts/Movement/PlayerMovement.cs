@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [SerializeField] AudioSource jumpSound;
     [Header("Movement")]
     private float moveSpeed;
     [SerializeField] private float walkSpeed;
@@ -215,6 +216,7 @@ public class PlayerMovement : MonoBehaviour
         rb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
         JumpCount.jumpsAmount += 1;
         _camera.DOShakeRotation(0.2f, 1f, 40);
+        jumpSound.Play();
     }
 
     private void ResetJump()
