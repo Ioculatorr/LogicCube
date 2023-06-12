@@ -5,11 +5,13 @@ using UnityEngine.EventSystems;
 
 public class PickUpController : MonoBehaviour
 {
+    //public GameObject Cube1;
 
     [Header("Pickup Settings")]
     [SerializeField] Transform holdArea;
-    private GameObject heldObj;
-    private Rigidbody heldObjRB;
+    public GameObject heldObj;
+    public bool isSmthHeld = true;
+    public Rigidbody heldObjRB;
     private float throwAmount = 20.0f;
 
 
@@ -20,13 +22,8 @@ public class PickUpController : MonoBehaviour
     [Header("Keybinds")]
     public KeyCode resetKey = KeyCode.R;
 
-    [Header("Fixes")]
-    private float startScale;
-
-    private void Start()
-    {
-        startScale = transform.localScale.y;
-    }
+    [Header("Player")]
+    [SerializeField] private GameObject Player;
 
     private void Update()
     {
@@ -38,11 +35,13 @@ public class PickUpController : MonoBehaviour
                 if(Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, pickupRange))
                 {
                     PickupObject(hit.transform.gameObject);
+                    isSmthHeld = true;
                 }
             }
             else
             {
                 DropObject();
+                isSmthHeld = false;
             }
         }
         if(heldObj != null)
@@ -51,6 +50,7 @@ public class PickUpController : MonoBehaviour
             if (Input.GetMouseButtonDown(1))
             {
                 ThrowObject();
+                isSmthHeld = false;
             }
         }
 
@@ -80,6 +80,7 @@ public class PickUpController : MonoBehaviour
             heldObjRB.drag = 10;
             heldObjRB.constraints = RigidbodyConstraints.FreezeRotation;
 
+            Physics.IgnoreCollision(heldObjRB.GetComponent<Collider>(), Player.GetComponent<Collider>(), true);
             heldObjRB.transform.parent = holdArea;
             heldObj = pickObj;
         }
@@ -91,6 +92,7 @@ public class PickUpController : MonoBehaviour
             heldObjRB.drag = 1;
             heldObjRB.constraints = RigidbodyConstraints.None;
 
+            Physics.IgnoreCollision(heldObjRB.GetComponent<Collider>(), Player.GetComponent<Collider>(), false);
             heldObj.transform.parent = null;
             heldObj = null;
     }
@@ -101,6 +103,7 @@ public class PickUpController : MonoBehaviour
         heldObjRB.drag = 1;
         heldObjRB.constraints = RigidbodyConstraints.None;
         heldObj.transform.parent = null;
+        Physics.IgnoreCollision(heldObjRB.GetComponent<Collider>(), Player.GetComponent<Collider>(), false);
 
         Vector3 throwDirection = (holdArea.forward);
         heldObjRB.velocity = (throwDirection * throwAmount);
