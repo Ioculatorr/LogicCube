@@ -19,19 +19,5 @@ public class DoorTrigger : MonoBehaviour
         }
     }
    
-  
-      
-  
-           
-       
-  
-
-
-
-
-
-
-
-
 
 }
